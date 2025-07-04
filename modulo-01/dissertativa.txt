@@ -1,0 +1,16 @@
+Truque da Tabuada do 9
+
+Passo 1: Entrada
+O algoritmo inicia solicitando ao usuário que forneça o número a ser multiplicado por 9. Este número, que chamaremos de n, deve ser um valor inteiro, idealmente entre 1 e 10, para que a regra do truque funcione corretamente. O valor de n é lido e armazenado na memória.
+
+Passo 2: Processamento
+Com o número n em mãos, o algoritmo realiza os cálculos definidos pelas regras.
+
+Primeiro, calcula-se o dígito da dezena do resultado subtraindo 1 de n. O resultado desta operação é armazenado em uma variável chamada dezena.
+
+Em seguida, calcula-se o dígito da unidade subtraindo n de 10. O resultado é guardado em uma variável chamada unidade.
+
+Por fim, o resultado final da multiplicação é calculado combinando a dezena e a unidade. Isso é feito matematicamente multiplicando o valor da dezena por 10 e somando o valor da unidade. A fórmula é: resultado = (dezena * 10) + unidade.
+
+Passo 3: Saída
+O algoritmo conclui exibindo o valor final calculado na variável resultado. Uma mensagem clara é mostrada na tela, informando ao usuário o resultado da operação 9 x n.

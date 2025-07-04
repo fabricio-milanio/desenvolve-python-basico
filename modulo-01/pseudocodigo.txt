@@ -1,0 +1,24 @@
+Truque da Tabuada do 9
+
+Variáveis:
+
+   n: INTEIRO
+   dezena: INTEIRO
+   unidade: INTEIRO
+   resultado: INTEIRO
+
+INICIO
+
+   Passo 1: Entrada de Dados
+   ESCREVA "Digite o número (de 1 a 10) que você quer multiplicar por 9: "
+   LEIA n
+
+   Passo 2: Processamento
+   dezena <- n - 1
+   unidade <- 10 - n
+   resultado <- (dezena * 10) + unidade
+
+   Passo 3: Saída de Dados
+   ESCREVA "O resultado de 9 x ", n, " é: ", resultado
+
+FIM
